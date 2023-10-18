@@ -1,0 +1,15 @@
+{
+    "testEnvironment": "jsdom",
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "setupFilesAfterEnv": [
+        "@testing-library/jest-dom/extend-expect"
+    ],
+    "moduleDirectories": ["node_modules", "src"],
+    "moduleNameMapper": {
+      "react-leaflet": "<rootDir>/src/mocks/reactLeafletMock.js",
+      "\\.(css|less)$": "<rootDir>/src/mocks/stylesMock.js"
+    }
+
+}

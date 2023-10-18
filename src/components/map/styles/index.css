@@ -1,0 +1,16 @@
+@import url('https://unpkg.com/leaflet@1.5.1/dist/leaflet.css');
+
+.path-details-map {
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.add-path-map {
+    width: 80%;
+    height: 80%;
+    @media (max-width: 700px) {
+        width: 90%;
+        height: 400px
+    }
+}
