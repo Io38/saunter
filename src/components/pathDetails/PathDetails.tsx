@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import * as Styled from "./PathDetails.styled";
 import { formatDistance } from "utils/formatDistance";
 import { texts } from "constants/texts";
